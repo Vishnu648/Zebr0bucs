@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0 0 0px;
+    display: flex;
+    padding-left: 35px;
+    position: fixed;
+}
+#zLogo{
+    height: 40px;
+    width: 40px;
+}
+#headName{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+#navi{
+    width: 800px;
+    display: flex;
+    flex-flow: end;
+    column-gap: 20px;
+    font-size: 16px;
+    padding-left: 80px;
+    align-items: center
+}
+.nav:hover{
+    cursor: pointer;
+    color: rgb(88, 86, 86);
+}
+#searchIcon{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 80px;
+}
+#banner{
+    height: 700px;
+    width: 100%;   
+}
+#ytVideos{
+    height: 360px;
+    padding: 40px 50px 0 120px;
+}
+#headingss{
+    text-align: center;
+    margin: 60px 0 30px 0;
+}
+#TC{
+   height: 200px;
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: 5;
+   grid-template-rows: 2;
+   padding: 0 30px 0 80px;
+}
+.tcItems{
+   height: 140px;
+   width: 220px;
+   margin-left: 20px;
+   border-radius: 15px;
+   text-align: center;
+   color: white;
+}
+.tcItems:hover{
+    background-color: black;
+}
+.TCImages{
+    height: 110px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.tcite{
+    font-size: 20px;
+    font-weight: 100px;    
+}
+#justLanuched{
+    height: 400px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    justify-items: center;
+}
+.JLItems{
+    height: 360px;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.JLItems:hover{
+    cursor:pointer;
+}
+.jlItemImages{
+    width: 100%;
+    height: 280px;
+}
+
+.product{
+    font-size: 13px;
+    color: gray;
+}
+.model{
+    color: black;
+    font-size: 17px;
+    margin: 3px;
+}
+.price{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#instagram{
+    font-size: 23px;
+    color: rgb(54, 81, 235);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+#instagram:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#ins{
+    text-align: center;
+}
+
+#ZebinstagramPosts{
+    height: 600px;
+    width: 1366px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr  1fr  1fr  1fr  1fr ;
+    gap: 5px 10px;
+}
+.posts{
+    background-color: yellow;
+}
+.posts:hover{
+    cursor: pointer;
+}
+.instaID{
+    height: 100%;
+    width: 100%;
+}
+
+
+footer{
+    height: 460px;
+}
+#premium{
+    font-size: 21px;
+    padding-bottom: 30px;
+    margin: 50px 0 0px 50px;
+}
+#discri{
+    margin: 0px 0 60px 50px;
+}
+#f2{
+    margin-top: 100px;
+    height: 370px;
+    background-color: #f7f8fa;
+    margin: 0;
+}
+table{
+    row-gap: 10px;
+    border-spacing:100px 13px;
+}
+th,td{
+    text-align: left;
+}
+#email{
+    height: 40px;
+    width: 180px;
+    margin-right: 0;
+    border-radius: 5px;
+}
+#submit{
+    background-color: rgb(38, 123, 221);
+    height: 40px;
+    width: 80px;
+    color:white;
+    margin-left: 0;
+    border-radius: 5px;
+}
+#sm:hover{
+    color: black;
+    cursor: pointer;
+}
+.ff{
+    background-color: gray;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+#footName{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#licence{
+    padding-left: 150px;
+}
